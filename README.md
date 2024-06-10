@@ -1,1 +1,3 @@
 # Inline-Functions
+Kotlin mein inline functions aik khas feature hain jo performance ko behtar banane ke liye design kiya gaya hai, khaaskar un mamlat mein jahan higher-order functions (aise functions jo doosre functions ko parameter ke tor par lete hain ya return karte hain) bohot zyada istemal hotay hain. inline keyword ko use karke, aap Kotlin compiler ko ye batate hain ke function ke code ko call site par inline karein. Is se bytecode zyada efficient banta hai kyunki is se function calls ka overhead khatam ho jata hai, khaaskar jab lambda expressions involve hoti hain.
+Ek inline function ko inline keyword ke zariye declare kiya jata hai jo fun keyword se pehle lagaya jata hai.
